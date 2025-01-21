@@ -38,7 +38,7 @@ function generarNumeroSecreto() {
      console.log(listaNumerosSorteados);
      // Si ya sorteamos todos los numeros
      if(listaNumerosSorteados.length == numeroMaximo) {
-          asignarTextoElementos('p','Ya se sortearon todos los numeros psoibles');
+          asignarTextoElementos('p','Ya se sortearon todos los numeros posibles');
      } else {
           // Si el numero generado esta incluido en la lista 
           if(listaNumerosSorteados.includes(numeroGenerado)){
